@@ -1,0 +1,34 @@
+package javabacis;
+
+public class hellojava { //class 
+
+	public static void main(String[] args) { // main method
+		
+		SayHello();//method decliration
+		SayHello();
+		SayHello();
+		SayHello();
+		SayHello();
+		
+		SayHellojava();
+		
+		
+		System.out.println("hello java");
+
+	}
+
+private static void SayHello() {// calling the upper method
+	
+	System.out.println("hello java");
+	
+}
+
+	private static void SayHellojava() // can also take static void by replacing private static void
+	{
+	System.out.println("Hello java how r u");	
+	}
+	
+	
+}// in this program we learn that how to create method and call it in program; 
+// we call method inside of main function.
+//The output will be printed same times you call the method.
