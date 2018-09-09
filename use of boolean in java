@@ -1,0 +1,31 @@
+package javabacis;
+
+public class booleandemo {
+
+	public static void main(String[] args) {
+//program to demonstrate boolean expression.
+		
+		boolean b;
+		
+		b=true;
+		System.out.println("the value of b is "+b);
+		
+		b=false;
+		System.out.println("the value of b is "+b);
+		//a boolean value can control the if statement.
+		if(b);
+		System.out.println("the statement is executed");
+		
+		b=false;
+		if(b)
+		System.out.println("not executed");
+		//outcome of relational operation is a boolean value.
+		
+		System.out.println("8>9"+(8>9));
+			
+		
+		
+		
+	}
+
+}
