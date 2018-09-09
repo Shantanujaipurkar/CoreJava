@@ -1,0 +1,37 @@
+package javabacis;
+
+public class allloops {
+
+	public static void main(String[] args) {
+		
+		whileloop();
+		forloop();
+		dowhileloop();
+		
+	}
+static void whileloop() {
+	System.out.println("while loop");
+	int count=10;
+	while (count<10);
+	count=count+1;
+	System.out.println(count);
+		}
+static void forloop()
+{
+	System.out.println("forloop");
+	int count;
+	for (count=1;count<=10;count=count+1);
+	System.out.println(count);
+}
+static void dowhileloop() {
+	System.out.println("do while lopo");
+	int count=1;
+	do
+	{
+		count=count+1;
+		System.out.println(count);
+	}
+	while(count<=10);
+}
+
+}
