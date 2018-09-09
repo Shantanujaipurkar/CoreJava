@@ -1,0 +1,33 @@
+package javabacis;
+
+public class longdemo {
+
+	public static void main(String[] args) {
+// the long is used when the value is large that it cannot hold by int.
+		
+		int lightspeed;
+		long days;
+		long seconds;
+		long distance;
+		
+		
+		lightspeed=186000;
+		
+		System.out.println("the speed of light is "+lightspeed);
+		
+		days=1000;//specifying number of days
+	
+		
+		seconds=days*24*60*60;//converting into seconds.
+		
+		
+		distance=days*seconds; //compute distance
+		
+		System.out.println("in"+ days+"days" );
+		
+		System.out.println("the light travles about"+distance);//the value is so large that it can not hold by int value, so long is used.  
+		
+		
+	}
+
+}
