@@ -1,0 +1,28 @@
+package javabacis;
+
+public class vaariablescope {
+	
+	static int x; //declaring the variable
+	// x is declared outside of the main method ,so it is scope to all ,
+	//in other words any method can access it.
+
+	public static void main(String[] args) {
+
+	
+	x=5;
+	System.out.println(x);
+	
+	dosomthing();// method declaration.
+	System.out.println(x);
+		
+	
+	}
+
+	static void dosomthing() {
+		
+		int y=100;
+		System.out.println(y);   // this variable is declared inside of the method 
+				                 // so it can be accesses by only this method.
+	}
+	
+}
